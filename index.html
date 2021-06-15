@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Grant's Meme Generator</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body class = "container">
+        <h1>Meme Generator</h1>
+        <h3>Fill out the form to generate a meme!</h3>
+        <form action ="#" id = "form">
+            <label for="#image_url">Image URL: </label>
+            <input type = "text" id="image_url" required>
+            <br>
+            <label for="#textOnTop">Text on Top: </label>
+            <input type = "text" id="textOnTop" required>
+            <br>
+            <label for="#textOnBottom">Text on Bottom: </label>
+            <input type = "text" id="textOnBottom" required>
+            <br>
+            <input type = "submit" id="submit" value="Generate Meme!">
+        </form>
+        <div id = "memeList">
+            <ul>
+                
+            </ul>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+
+</html>
