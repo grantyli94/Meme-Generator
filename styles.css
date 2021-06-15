@@ -1,0 +1,59 @@
+* {
+    font-family: cursive;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.textDiv {
+    position: relative;
+}
+
+.top, .bottom {
+    width: 400px;
+    font-size: 28px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 0;
+    right: 0;
+}
+
+.top {
+    position: absolute;
+    top: 10px;
+    
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px 0;
+}
+
+form {
+    margin: 40px auto;
+    border: dotted lightseagreen 3px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+input {
+    margin: 10px;
+    text-align: left;
+}
+
